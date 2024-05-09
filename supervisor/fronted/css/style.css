@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(17, 155, 155);
+    width: 100%;
+    padding:5px 3px 2px 3px;
+    position: static;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+.profile h4{
+    height: inherit;
+    text-align: center;
+    padding-left: 5px;
+    align-self: center;
+
+}
+.name{
+    padding: 10px;
+}
+.container{
+    background-color: rgb(48, 44, 44);
+    color:white;
+    width: 20%;
+    position:fixed;
+    bottom: 0px;
+    top:100px;
+    text-align: center;
+
+}
+li{
+    list-style: none;
+    padding: 20px 0px;
+    border:2px solid rgb(17, 155, 155);
+    margin:5px;
+    margin-right: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+
+    width: 80%;
+    position: fixed;
+    top:65px;
+    bottom: 0px;
+    right: 0px;
+    overflow-y: scroll;
+    background-color: rgba(90, 96, 99, 0.582);
+}
+.show_header{
+    text-align: center;
+    align-items: baseline;
+    background-color: white;
+    height: 35px;
+    width: 100%;
+}
+.read{
+    background-color:rgb(17, 155, 155);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+tbody{
+    overflow-y: scroll;
+}
+.submit{
+    background-color:rgb(17, 155, 155);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 10px 0px 90%;
+    border-radius: 20px;
+
+
+}
+.company_form input{
+
+    background: transparent;
+}
+
+.company_form input[type="submit"]{
+    background-color:  rgb(17, 155, 155);;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.assessment{
+    padding :5px 10px;
+    background-color: rgb(17, 155, 155);
+    border-radius: 20px;
+}
+.student_assessment{
+    padding-top: 20px;
+    text-align: center;
+}
